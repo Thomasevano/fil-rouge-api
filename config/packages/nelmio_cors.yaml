@@ -22,5 +22,5 @@ nelmio_cors:
             allow_origin: ['*']
             allow_headers: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept', 'Authorization', 'x-xsrf-token']
             allow_methods: ['POST','GET','DELETE','PUT']
-            expose_headers: []
+            expose_headers: ['Content-Type', 'Authorization']
             max_age: 3600
